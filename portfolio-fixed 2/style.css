@@ -883,6 +883,9 @@ section {
     color: var(--muted);
     margin-bottom: 6px;
 }
+.experience-content {
+    padding-top: 20px;
+}
 
 /* =========================
    EXPERIENCE LOGO
@@ -1053,8 +1056,8 @@ section {
 .experience-list li {
     margin-bottom: 8px;
     color: var(--muted);
-    line-height: 1.7;
-    font-size: 16px;
+    line-height: 1.3;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -1990,4 +1993,33 @@ footer {
     margin-top: auto;
     padding-top: 80px;
     padding-bottom: 40px;
+}
+
+.currently-number {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--green);
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 10;
+    padding: 15px 20px;
 }
